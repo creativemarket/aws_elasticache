@@ -11,7 +11,8 @@ module NDAwsLibs
         :cache_subnet_group_name,
         :security_group_ids,
         :port,
-        :auto_minor_version_upgrade
+        :auto_minor_version_upgrade,
+        :notification_topic_arn
       ]
 
       def ec_connection(key = new_resource.aws_access_key, secret = new_resource.aws_secret_access_key, region = new_resource.region)
