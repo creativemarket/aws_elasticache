@@ -9,7 +9,7 @@
 
 chef_gem "aws-sdk-core" do
   action :install
-  version "2.0.18"
+  version "~> 3"
 end
 
 require 'aws-sdk-core'
